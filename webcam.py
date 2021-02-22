@@ -2,7 +2,7 @@ import cv2
 import os
 import joblib
 import numpy as np 
-# import onnxruntime as rt      # alternativamente uso pickle modelsvm e res
+# import onnxruntime as rt (alternativamente uso pickle modelsvm e res)
 
 # Pickle
 model=cv2.CascadeClassifier(os.path.join("haar-cascade-files","haarcascade_frontalface_default.xml"))
